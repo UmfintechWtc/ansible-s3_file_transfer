@@ -1,0 +1,23 @@
+---
+galaxy_info:
+  role_name: s3
+  author: TianCiwang
+  description: Install python dependency for s3_file_transfer module
+  license: license (GPL-2.0-or-later, MIT, etc)
+  min_ansible_version: 2.9
+  platforms: []
+  tags: 
+    - linux
+    - s3
+    - development
+    - file-upload
+    - file-download
+  galaxy_tags: []
+  dependencies: []
+
+# The URL to any online docs
+documentation: https://github.com/UmfintechWtc/ansible-s3_file_transfer
+# The URL to the homepage of the collection/project
+homepage: https://github.com/marmorag/ansodium
+# The URL to the collection issue tracker
+issues: https://github.com/UmfintechWtc/ansible-s3_file_transfer/issues
