@@ -1,5 +1,5 @@
 namespace: "umfintechwtc"
-name: "s3"
+name: "s3_file_transfer"
 version: "0.0.2"
 readme: "README.md"
 description: "upload file & download file with s3_file_transfer module"
