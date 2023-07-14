@@ -41,7 +41,7 @@ If you want an example of what it looks like, then this is the roles which embbe
 Install it via ansible-galaxy (recommended):
 
 ```bash
-ansible-galaxy collection install marmorag.ansodium
+ansible-galaxy install umfintechwtc.s3
 ```
 ###### *__NOTE__: Installing collections with ansible-galaxy is only supported in ansible 2.9+ and Python Version >= 3.6*
 
@@ -54,7 +54,7 @@ Or use the provided `install` roles
 
 ```yaml
 roles:
-    - { role: .ansodium.install }
+    - { role: umfintechwtc.s3_file_transfer.s3 }
 ```
 
 ---
