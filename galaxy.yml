@@ -1,0 +1,19 @@
+namespace: "umfintechwtc"
+name: "s3_file_transfer"
+version: "1.0.0"
+readme: "README.md"
+
+authors:
+- "TianCiwang"
+
+description: "Install python dependency for s3_file_transfer module"
+
+license_file: 'License.md'
+
+
+# The URL to any online docs
+documentation: https://github.com/UmfintechWtc/ansible-s3_file_transfer
+# The URL to the homepage of the collection/project
+homepage: https://github.com/marmorag/ansodium
+# The URL to the collection issue tracker
+issues: https://github.com/UmfintechWtc/ansible-s3_file_transfer/issues
