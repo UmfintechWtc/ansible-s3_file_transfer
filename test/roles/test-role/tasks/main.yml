@@ -1,0 +1,18 @@
+---
+- name: Download S3 Server file to local
+  s3_file_transfer:
+    endpoint_url: "127.0.0.1:80"
+    ak: "admin"
+    sk: "admin1234"
+    src: "my-bucket/sub-bucket1/zabbix_agentd.log"
+    dest: "/root/zabbix_agentd.log"
+    state: "download"
+
+- name: Upload local file to S3 Server
+  s3_file_transfer:
+    endpoint_url: "127.0.0.1:80"
+    ak: "admin"
+    sk: "admin1234"
+    src: "/root/zabbix_agentd.log"
+    dest: "my-bucket/sub-bucket1/zabbix_agentd.log"
+    state: "upload"
