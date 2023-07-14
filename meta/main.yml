@@ -11,6 +11,7 @@ galaxy_info:
     - linux
     - s3
     - development
+    - minio
   dependencies: []
 
 # The URL to any online docs
