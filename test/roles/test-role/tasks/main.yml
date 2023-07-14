@@ -1,0 +1,38 @@
+---
+- hosts: localhost
+  become: false
+  gather_facts: no
+  collections:
+    - umfintechwtc.ansible_s3_file_transfer
+  task:
+    - name: set fact
+      set_fact:
+        msg: "Successfully"
+
+    - name: Download S3 Server file to local
+      s3_file_transfer:
+        endpoint_url: "localhost:80"
+        ak: "admin"
+        sk: "Admin12345"
+        src: "my-bucket/sub-bucket1/zabbix_agentd.log"
+        dest: "/root/zabbix_agentd.log"
+        state: "download"
+        register: download
+    
+    - assert:
+        that:
+          - "{{ download.msg == original_data }}"
+
+    - name: Upload local file to S3 Server
+      s3_file_transfer:
+        endpoint_url: "{{ s3_endpoint_url }}"
+        ak: "{{ s3_ak }}"
+        sk: "{{ s3_sk }}"
+        src: "/root/zabbix_agentd.log"
+        dest: "my-bucket/sub-bucket1/zabbix_agentd.log"
+        state: "upload"
+        register: upload
+
+    - assert:
+        that:
+          - "{{ upload.msg == original_data }}"
