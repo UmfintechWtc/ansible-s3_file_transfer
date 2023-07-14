@@ -1,24 +1,22 @@
-namespace: marmorag
-name: ansodium
-version: 1.0.2
-readme: README.md
+---
+galaxy_info:
+  role_name: s3
+  author: TianCiwang
+  description: Install python dependency for s3_file_transfer module
+  license: license (GPL-2.0-or-later, MIT, etc)
+  min_ansible_version: 2.9
+  platforms:
+    - name: CentOS 6 7 8
 
-authors:
-- TianCiwang
+  galaxy_tags:
+    - s3
+    - minio
+    - development
+    - file-upload
+    - file-download
 
-description: Ansible module to upload object to S3 or download object to local compatible object storage server
+  dependencies: []
 
-license_file: 'License.md'
-
-tags: ['s3', 'development', 'system', 'minio']
-
-dependencies: {}
-
-# The URL of the originating SCM repository
-repository: https://github.com/UmfintechWtc/ansible-s3_file_transfer
-# The URL to any online docs
-documentation: https://github.com/UmfintechWtc/ansible-s3_file_transfer
-# The URL to the homepage of the collection/project
-homepage: https://github.com/UmfintechWtc/ansible-s3_file_transfer
-# The URL to the collection issue tracker
-issues: https://github.com/UmfintechWtc/ansible-s3_file_transfer/issues
+repository: "https://github.com/UmfintechWtc/ansible-s3_file_transfer"
+documentation: "https://github.com/UmfintechWtc/ansible-s3_file_transfer/blob/main/README.md"
+issues: "https://github.com/UmfintechWtc/ansible-s3_file_transfer/issues"
