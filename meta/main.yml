@@ -1,12 +1,14 @@
 ---
 galaxy_info:
-  role_name: install
+  role_name: s3
   author: TianCiwang
   description: Install python dependency for s3_file_transfer module
   license: license (GPL-2.0-or-later, MIT, etc)
   min_ansible_version: 2.9
   platforms:
-    - name: CentOS 6 7 8
+    - name: CentOS 6
+    - name: CentOS 7 
+    - name: Centos 8
 
   galaxy_tags:
     - s3
