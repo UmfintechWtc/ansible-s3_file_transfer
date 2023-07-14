@@ -5,13 +5,14 @@ galaxy_info:
   description: Install python dependency for s3_file_transfer module
   license: license (GPL-2.0-or-later, MIT, etc)
   min_ansible_version: 2.9
-  platforms: []
+  platforms: 
+    - name: CentOS 6
   galaxy_tags: 
-    - linux
-    - s3
-    - development
-    - file-upload
-    - file-download
+    - Linux
+    - S3
+    - Development
+    - UploadFile
+    - DownloadFile
   dependencies: []
 
 # The URL to any online docs
