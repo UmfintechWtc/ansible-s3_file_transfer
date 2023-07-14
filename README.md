@@ -54,7 +54,7 @@ Or use the provided `install` roles
 
 ```yaml
 roles:
-    - { role: umfintechwtc.s3_file_transfer.s3 }
+    - { role: umfintechwtc.s3 }
 ```
 
 ---
@@ -67,8 +67,8 @@ Refering to [ansible docs](https://docs.ansible.com/ansible/latest/dev_guide/dev
 - put in in `/usr/share/ansible/plugins/modules/`
 
 ```bash
-git clone https://gitee.com/TianCiwang/ansible-s3upload-with-minio.git
-cd ./ansible-s3upload-with-minio
+git clone https://github.com/UmfintechWtc/ansible-s3_file_transfer.git
+cd ./ansible-s3_file_transfer
 
 mkdir -p ~/.ansible/plugins/modules
 cp ./s3_file_transfer.py ~/.ansible/plugins/modules
