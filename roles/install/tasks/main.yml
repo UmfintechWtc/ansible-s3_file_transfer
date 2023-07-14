@@ -1,4 +1,0 @@
----
-# tasks file for s3
-- import_tasks: upload.yml
-- import_tasks: download.yml

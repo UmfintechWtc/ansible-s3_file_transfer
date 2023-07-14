@@ -1,5 +1,0 @@
----
-# defaults file for s3
-s3_endpoint_url: "127.0.0.1:80"
-s3_ak: "admin"
-s3_sk: "Admin1234"
