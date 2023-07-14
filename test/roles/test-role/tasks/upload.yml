@@ -1,9 +1,0 @@
----
-- name: Upload local file to S3 Server
-  s3_file_transfer:
-    endpoint_url: "{{ s3_endpoint_url }}"
-    ak: "{{ s3_ak }}"
-    sk: "{{ s3_sk }}"
-    src: "/root/zabbix_agentd.log"
-    dest: "my-bucket/sub-bucket1/zabbix_agentd.log"
-    state: "upload"
