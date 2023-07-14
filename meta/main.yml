@@ -6,12 +6,14 @@ galaxy_info:
   license: license (GPL-2.0-or-later, MIT, etc)
   min_ansible_version: 2.9
   platforms: 
-    - name: centos
+    - name: Centos
   galaxy_tags: 
     - linux
     - s3
     - development
     - minio
+    - uploadfile
+    - downloadfile
   dependencies: []
 
 # The URL to any online docs
