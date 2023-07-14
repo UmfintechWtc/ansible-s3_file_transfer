@@ -6,7 +6,7 @@ galaxy_info:
   license: license (GPL-2.0-or-later, MIT, etc)
   min_ansible_version: 2.9
   platforms: 
-    - name: CentOS Linux 7 (Core)
+    - name: CentOS-7
   galaxy_tags: 
     - linux
     - s3
