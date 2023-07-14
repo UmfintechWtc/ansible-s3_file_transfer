@@ -16,27 +16,10 @@ galaxy_info:
     - downloadfile
   dependencies: []
 
-namespace: "umfintechwtc"
-name: "umfintechwtc"
-version: "0.0.2"
-readme: "README.md"
-description: "upload file & download file with s3_file_transfer module"
-authors:
-  - "TianCiwang <13623650548@163.com>"
-
-license: "MIT"
 
 # The URL to any online docs
 documentation: https://github.com/UmfintechWtc/ansible-s3_file_transfer
 # The URL to the homepage of the collection/project
 homepage: https://github.com/marmorag/ansodium
-# The URL to the collection issue tracker
-issues: https://github.com/UmfintechWtc/ansible-s3_file_transfer/issues
-
-
-# The URL to any online docs
-documentation: https://github.com/UmfintechWtc/ansible-s3_file_transfer
-# The URL to the homepage of the collection/project
-homepage: https://github.com/UmfintechWtc
 # The URL to the collection issue tracker
 issues: https://github.com/UmfintechWtc/ansible-s3_file_transfer/issues
