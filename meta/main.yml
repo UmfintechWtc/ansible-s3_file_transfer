@@ -8,11 +8,9 @@ galaxy_info:
   platforms: 
     - name: CentOS 6
   galaxy_tags: 
-    - Linux
-    - S3
-    - Development
-    - UploadFile
-    - DownloadFile
+    - linux
+    - s3
+    - development
   dependencies: []
 
 # The URL to any online docs
