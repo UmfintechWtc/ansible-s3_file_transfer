@@ -11,12 +11,7 @@ description: "Install python dependency for s3_file_transfer module"
 license_file: 'License.md'
 
 tags: ['sodium', 'development', 'system']
-# tags: 
-#   - linux
-#   - s3
-#   - development
-#   - file-upload
-#   - file-download
+
 
 # The URL to any online docs
 documentation: https://github.com/UmfintechWtc/ansible-s3_file_transfer
