@@ -6,19 +6,9 @@ galaxy_info:
   license: license (GPL-2.0-or-later, MIT, etc)
   min_ansible_version: 2.9
   platforms:
-    - name: CentOS 6
-    - name: CentOS 7 
-    - name: Centos 8
+    - name: CentOS
+    - name: Ubuntu
+    - name: Debain
 
-  galaxy_tags:
-    - s3
-    - minio
-    - development
-    - file-upload
-    - file-download
-
+  galaxy_tags: []
   dependencies: []
-
-repository: "https://github.com/UmfintechWtc/ansible-s3_file_transfer"
-documentation: "https://github.com/UmfintechWtc/ansible-s3_file_transfer/blob/main/README.md"
-issues: "https://github.com/UmfintechWtc/ansible-s3_file_transfer/issues"

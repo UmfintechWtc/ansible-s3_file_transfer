@@ -10,7 +10,7 @@ description: Install python dependency for s3_file_transfer module
 
 license_file: 'License.md'
 
-tags: ['minio', 's3', 'development']
+tags: ['minio', 's3', 'development', 'file-upload', 'file-download']
 
 dependencies: {}
 
