@@ -1,0 +1,24 @@
+namespace: marmorag
+name: ansodium
+version: 1.0.2
+readme: README.md
+
+authors:
+- TianCiwang
+
+description: Ansible module to upload object to S3 or download object to local compatible object storage server
+
+license_file: 'License.md'
+
+tags: ['s3', 'development', 'system', 'minio']
+
+dependencies: {}
+
+# The URL of the originating SCM repository
+repository: https://github.com/UmfintechWtc/ansible-s3_file_transfer
+# The URL to any online docs
+documentation: https://github.com/UmfintechWtc/ansible-s3_file_transfer
+# The URL to the homepage of the collection/project
+homepage: https://github.com/UmfintechWtc/ansible-s3_file_transfer
+# The URL to the collection issue tracker
+issues: https://github.com/UmfintechWtc/ansible-s3_file_transfer/issues
