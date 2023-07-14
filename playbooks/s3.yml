@@ -1,0 +1,6 @@
+---
+- name: upload or download file
+  hosts: s3
+  gather_facts: yes
+  roles:
+    - role: s3
