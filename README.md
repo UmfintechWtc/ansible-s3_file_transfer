@@ -41,9 +41,9 @@ Install it via ansible-galaxy (recommended):
 ```bash
 ansible-galaxy collection install marmorag.ansodium
 ```
-###### *__NOTE__: Installing collections with ansible-galaxy is only supported in ansible 2.9+*
+###### *__NOTE__: Installing collections with ansible-galaxy is only supported in ansible 2.9+ and Python Version >= 3.6*
 
-You will need the `boto3, botocore` Python module to be installed.
+You will need the `boto3, botocore` Python>=3.7 module to be installed.
 ```bash
 pip install boto3 botocore
 ```
@@ -52,7 +52,7 @@ Or use the provided `install` roles
 
 ```yaml
 roles:
-    - { role: marmorag.ansodium.install }
+    - { role: .ansodium.install }
 ```
 
 ---
