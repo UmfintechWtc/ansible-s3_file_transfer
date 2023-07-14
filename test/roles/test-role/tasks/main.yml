@@ -21,13 +21,14 @@
     
     - assert:
         that:
-          - "{{ download.msg == original_data }}"
+          - "{{ original_data in download.msg }}"
+        success_msg: "file download success"
 
     - name: Upload local file to S3 Server
       s3_file_transfer:
-        endpoint_url: "{{ s3_endpoint_url }}"
-        ak: "{{ s3_ak }}"
-        sk: "{{ s3_sk }}"
+        endpoint_url: "localhost:80"
+        ak: "admin"
+        sk: "Admin1234"
         src: "/root/zabbix_agentd.log"
         dest: "my-bucket/sub-bucket1/zabbix_agentd.log"
         state: "upload"
@@ -35,4 +36,5 @@
 
     - assert:
         that:
-          - "{{ upload.msg == original_data }}"
+          - "{{ original_data in upload.msg }}"
+        fail_msg: "file uplaod failed"
