@@ -11,6 +11,6 @@ license: "MIT"
 # The URL to any online docs
 documentation: https://github.com/UmfintechWtc/ansible-s3_file_transfer
 # The URL to the homepage of the collection/project
-homepage: https://github.com/marmorag/ansodium
+homepage: https://github.com/UmfintechWtc/ansible-s3_file_transfer
 # The URL to the collection issue tracker
 issues: https://github.com/UmfintechWtc/ansible-s3_file_transfer/issues
